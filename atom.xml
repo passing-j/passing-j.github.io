@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://passing-j.github.io/"/>
-  <updated>2017-02-27T15:00:54.341Z</updated>
+  <updated>2017-02-27T15:06:29.380Z</updated>
   <id>https://passing-j.github.io/</id>
   
   <author>
@@ -20,9 +20,15 @@
     <link href="https://passing-j.github.io/2017/02/27/plans/"/>
     <id>https://passing-j.github.io/2017/02/27/plans/</id>
     <published>2017-02-27T14:55:24.990Z</published>
-    <updated>2017-02-27T15:00:54.341Z</updated>
+    <updated>2017-02-27T15:06:29.380Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-参加-百度前端技术学院"><a href="#1-参加-百度前端技术学院" class="headerlink" title="1.参加 百度前端技术学院"></a>1.参加 <a href="http://ife.baidu.com/" target="_blank" rel="external">百度前端技术学院</a></h2><h3 id="打牢基础知识，学习实用的技术"><a href="#打牢基础知识，学习实用的技术" class="headerlink" title="打牢基础知识，学习实用的技术"></a>打牢基础知识，学习实用的技术</h3><h2 id="2-每周写一篇博客"><a href="#2-每周写一篇博客" class="headerlink" title="2.每周写一篇博客"></a>2.每周写一篇博客</h2><h3 id="为知识做些记录，安排在每周日晚上"><a href="#为知识做些记录，安排在每周日晚上" class="headerlink" title="为知识做些记录，安排在每周日晚上"></a>为知识做些记录，安排在每周日晚上</h3><h2 id="3-锻炼身体"><a href="#3-锻炼身体" class="headerlink" title="3.锻炼身体"></a>3.锻炼身体</h2><h3 id="三月中上旬开始，每周要有5个小时的运动量"><a href="#三月中上旬开始，每周要有5个小时的运动量" class="headerlink" title="三月中上旬开始，每周要有5个小时的运动量"></a>三月中上旬开始，每周要有5个小时的运动量</h3>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-参加-百度前端技术学院"><a href="#1-参加-百度前端技术学院" class="headerlink" title="1.参加 百度前端技术学院"></a>1.参加 <a href="http://ife.baidu.com/" target="_blank" rel="external">百度前端技术学院</a></h2><pre><code>打牢基础知识，学习实用的技术
+</code></pre><h2 id="2-每周写一篇博客"><a href="#2-每周写一篇博客" class="headerlink" title="2.每周写一篇博客"></a>2.每周写一篇博客</h2><pre><code>为知识做些记录，安排在每周日晚上
+</code></pre><h2 id="3-锻炼身体"><a href="#3-锻炼身体" class="headerlink" title="3.锻炼身体"></a>3.锻炼身体</h2><pre><code>三月中上旬开始，每周要有5个小时的运动量
+
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">越充实越有成就感</div></pre></td></tr></table></figure>
+</code></pre>]]></content>
     
     <summary type="html">
     

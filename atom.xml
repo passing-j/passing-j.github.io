@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>写点实用的</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://passing-j.github.io/"/>
   <updated>2017-02-27T03:51:27.061Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://passing-j.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>passing-j</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello Passing</title>
-    <link href="http://yoursite.com/2017/02/23/hello-world/"/>
-    <id>http://yoursite.com/2017/02/23/hello-world/</id>
+    <link href="https://passing-j.github.io/2017/02/23/hello-world/"/>
+    <id>https://passing-j.github.io/2017/02/23/hello-world/</id>
     <published>2017-02-23T07:56:40.246Z</published>
     <updated>2017-02-27T03:51:27.061Z</updated>
     

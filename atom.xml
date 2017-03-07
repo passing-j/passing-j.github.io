@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://passing-j.github.io/"/>
-  <updated>2017-02-27T15:14:43.700Z</updated>
+  <updated>2017-03-07T12:52:57.785Z</updated>
   <id>https://passing-j.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何优雅地制作表格</title>
+    <link href="https://passing-j.github.io/2017/03/07/dataTables/"/>
+    <id>https://passing-j.github.io/2017/03/07/dataTables/</id>
+    <published>2017-03-07T07:56:50.414Z</published>
+    <updated>2017-03-07T12:52:57.785Z</updated>
+    
+    <content type="html"><![CDATA[<p>用简单的方式实现表格布局、从后台获取数据渲染到页面。</p>
+<p>##需要具备的基础知识</p>
+<p>HTML、CSS、BootStrap、jQuery</p>
+<p>##用到的主要工具</p>
+<p>jQuery的 <a href="https://datatables.net/" target="_blank" rel="external">DataTables.js</a> 插件</p>
+<p>###实例1<br>    <!-- 头部引入链接 --><br>    <link rel="stylesheet" href="css/bootstrap.css"><br>    <link rel="stylesheet" href="css/plugins/dataTables/datatables.min.css"><br>    <!-- 尾部引入链接 --><br>    <script src="js/jquery-2.1.1.js"></script><br>    <script src="js/bootstrap.js"></script><br>    <script src="js/plugins/dataTables/datatables.min.js"></script></p>
+<p>  body部分<br>    <table id="example" class="display table table-striped table-bordered table-hover" cellspacing="0" width="100%"><br>        <thead><br>            <tr><br>                <th>Name</th><br>                <th>Position</th><br>                <th>Office</th><br>                <th>Age</th><br>                <th>Start date</th><br>                <th>Salary</th><br>            </tr><br>        </thead><br>        <tfoot><br>            <tr><br>                <th>Name</th><br>                <th>Position</th><br>                <th>Office</th><br>                <th>Age</th><br>                <th>Start date</th><br>                <th>Salary</th><br>            </tr><br>        </tfoot><br>        <tbody><br>            <tr><br>                <td>Tiger Nixon</td><br>                <td>System Architect</td><br>                <td>Edinburgh</td><br>                …<br>                <td>New York</td><br>                <td>27</td><br>                <td>2011/01/25</td><br>                <td>$112,000</td><br>            </tr><br>        </tbody><br>    </table></p>
+<p>###效果图1<br><img src="../../public/images/1table/table.jpg" alt="基本效果图"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用简单的方式实现表格布局、从后台获取数据渲染到页面。&lt;/p&gt;
+&lt;p&gt;##需要具备的基础知识&lt;/p&gt;
+&lt;p&gt;HTML、CSS、BootStrap、jQuery&lt;/p&gt;
+&lt;p&gt;##用到的主要工具&lt;/p&gt;
+&lt;p&gt;jQuery的 &lt;a href=&quot;https://datatable
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>几个小计划</title>

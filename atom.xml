@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://passing-j.github.io/"/>
-  <updated>2017-03-07T14:36:12.893Z</updated>
+  <updated>2017-04-13T08:41:29.047Z</updated>
   <id>https://passing-j.github.io/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WebSocket与后台的数据交互</title>
+    <link href="https://passing-j.github.io/2017/04/13/testws/"/>
+    <id>https://passing-j.github.io/2017/04/13/testws/</id>
+    <published>2017-04-13T08:41:22.178Z</published>
+    <updated>2017-04-13T08:41:29.047Z</updated>
+    
+    <content type="html"><![CDATA[<p>简要：使用websocket与后台建立连接，事件相互监听，数据相互发送。</p>
+<p>###需要具备的基础知识<br>nodejs、JavaScript、websocket</p>
+<p>###用到的主要工具<br>npm、express、socket.io、ejs</p>
+<ol>
+<li>本地安装 <a href="http://nodejs.cn/" target="_blank" rel="external">nodejs</a>，相关教程：<a href="https://cnodejs.org/getstart" target="_blank" rel="external">https://cnodejs.org/getstart</a></li>
+<li><p>创建项目文件夹<br> cmd方式:</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mkdir testws</div></pre></td></tr></table></figure>
+<p> 或者在资源管理器中视图创建</p>
+</li>
+<li><p>安装依赖模块<br> cmd进入testws文件夹，依次安装express、ejs、socket.io模块</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">npm install express</div><div class="line">npm install ejs</div><div class="line">npm install socket.io</div></pre></td></tr></table></figure>
+</li>
+<li><p>创建程序文件<br> 在testws文件夹下新建一个app.js文件，用来写服务器程序。再建一个www文件夹，用来存放公共资源。<br> 在www文件夹下新建j.js和page.html。项目结构如图所示。</p>
+ 
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;简要：使用websocket与后台建立连接，事件相互监听，数据相互发送。&lt;/p&gt;
+&lt;p&gt;###需要具备的基础知识&lt;br&gt;nodejs、JavaScript、websocket&lt;/p&gt;
+&lt;p&gt;###用到的主要工具&lt;br&gt;npm、express、socket.io、ejs&lt;/p
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>如何优雅地制作表格</title>

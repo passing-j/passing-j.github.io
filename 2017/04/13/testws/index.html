@@ -89,15 +89,37 @@
 
 
 
-<meta name="description" content="漫天落叶声似雨，关卿何事不成眠">
-<meta property="og:type" content="website">
-<meta property="og:title" content="写点实用的">
-<meta property="og:url" content="https://passing-j.github.io/archives/2017/03/index.html">
+<meta name="description" content="简要：使用websocket与后台建立连接，事件相互监听，数据相互发送。
+###需要具备的基础知识nodejs、JavaScript、websocket
+###用到的主要工具npm、express、socket.io、ejs
+
+本地安装 nodejs，相关教程：https://cnodejs.org/getstart
+创建项目文件夹 cmd方式:
+ 1mkdir testws
+ 或者在资源管理器中">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WebSocket与后台的数据交互">
+<meta property="og:url" content="https://passing-j.github.io/2017/04/13/testws/index.html">
 <meta property="og:site_name" content="写点实用的">
-<meta property="og:description" content="漫天落叶声似雨，关卿何事不成眠">
+<meta property="og:description" content="简要：使用websocket与后台建立连接，事件相互监听，数据相互发送。
+###需要具备的基础知识nodejs、JavaScript、websocket
+###用到的主要工具npm、express、socket.io、ejs
+
+本地安装 nodejs，相关教程：https://cnodejs.org/getstart
+创建项目文件夹 cmd方式:
+ 1mkdir testws
+ 或者在资源管理器中">
+<meta property="og:updated_time" content="2017-04-13T08:41:29.047Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="写点实用的">
-<meta name="twitter:description" content="漫天落叶声似雨，关卿何事不成眠">
+<meta name="twitter:title" content="WebSocket与后台的数据交互">
+<meta name="twitter:description" content="简要：使用websocket与后台建立连接，事件相互监听，数据相互发送。
+###需要具备的基础知识nodejs、JavaScript、websocket
+###用到的主要工具npm、express、socket.io、ejs
+
+本地安装 nodejs，相关教程：https://cnodejs.org/getstart
+创建项目文件夹 cmd方式:
+ 1mkdir testws
+ 或者在资源管理器中">
 
 
 
@@ -125,13 +147,13 @@
 
 
 
-  <link rel="canonical" href="https://passing-j.github.io/archives/2017/03/"/>
+  <link rel="canonical" href="https://passing-j.github.io/2017/04/13/testws/"/>
 
 
 
 
 
-  <title> 归档 | 写点实用的 </title>
+  <title> WebSocket与后台的数据交互 | 写点实用的 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -156,7 +178,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -240,66 +262,159 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 3 篇日志。 继续努力。
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://passing-j.github.io/2017/04/13/testws/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="passing-j">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="写点实用的">
     </span>
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                WebSocket与后台的数据交互
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-13T16:41:22+08:00">
+                2017-04-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
       
+
+      
+        <p>简要：使用websocket与后台建立连接，事件相互监听，数据相互发送。</p>
+<p>###需要具备的基础知识<br>nodejs、JavaScript、websocket</p>
+<p>###用到的主要工具<br>npm、express、socket.io、ejs</p>
+<ol>
+<li>本地安装 <a href="http://nodejs.cn/" target="_blank" rel="external">nodejs</a>，相关教程：<a href="https://cnodejs.org/getstart" target="_blank" rel="external">https://cnodejs.org/getstart</a></li>
+<li><p>创建项目文件夹<br> cmd方式:</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mkdir testws</div></pre></td></tr></table></figure>
+<p> 或者在资源管理器中视图创建</p>
+</li>
+<li><p>安装依赖模块<br> cmd进入testws文件夹，依次安装express、ejs、socket.io模块</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">npm install express</div><div class="line">npm install ejs</div><div class="line">npm install socket.io</div></pre></td></tr></table></figure>
+</li>
+<li><p>创建程序文件<br> 在testws文件夹下新建一个app.js文件，用来写服务器程序。再建一个www文件夹，用来存放公共资源。<br> 在www文件夹下新建j.js和page.html。项目结构如图所示。</p>
+ 
+</li>
+</ol>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
       
 
       
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/07/dataTables/" rel="next" title="如何优雅地制作表格">
+                <i class="fa fa-chevron-left"></i> 如何优雅地制作表格
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
         </div>
       
-      
 
       
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/03/07/dataTables/" itemprop="url">
-              
-                <span itemprop="name">如何优雅地制作表格</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-07T15:56:50+08:00"
-              content="2017-03-07" >
-          03-07
-        </time>
-      </div>
-
-    </header>
+      
+    </footer>
   </article>
 
 
 
-    
-
-  </section>
-
-  
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -307,6 +422,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -490,11 +609,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
 
 
   

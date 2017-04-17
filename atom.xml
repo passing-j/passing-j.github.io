@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://passing-j.github.io/"/>
-  <updated>2017-04-13T09:27:57.623Z</updated>
+  <updated>2017-04-17T09:48:18.441Z</updated>
   <id>https://passing-j.github.io/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二叉树和多叉树的遍历</title>
+    <link href="https://passing-j.github.io/2017/04/17/tree/"/>
+    <id>https://passing-j.github.io/2017/04/17/tree/</id>
+    <published>2017-04-17T08:41:28.385Z</published>
+    <updated>2017-04-17T09:48:18.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>简要：实现二叉树的前序、中序、后序遍历，多叉树的深度优先和广度优先遍历</p>
+<h3 id="需要具备的基础知识"><a href="#需要具备的基础知识" class="headerlink" title="需要具备的基础知识"></a>需要具备的基础知识</h3><p>JavaScript，树的数据结构</p>
+<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>在浏览器中，一切元素都是由<code><html></html></code>标签作为根节点发展成的树,对DOM的操作实质上就是对树的操作。</p>
+<p>例1.实现一个如图所示的二叉树，以动画形式对其进行前中后序遍历，遍历到的节点颜色改变<br><img src="/images/tree/tree02.png" alt="tree01" width="80%" align="center"><br>分析：</p>
+<ol>
+<li>使用flex布局DOM，展现出页面上的二叉树样式</li>
+<li>给按钮绑定点击事件</li>
+<li>对树进行遍历，将结果按顺序存入数组</li>
+<li>以动画形式渲染数组，逐个改变背景色</li>
+</ol>
+<p><a href="http://htmlpreview.github.io/?https://github.com/passing-j/ife2017/blob/master/js/task07/task07.html" target="_blank" rel="external">在线预览</a><br>完整项目已上传<a href="https://github.com/passing-j/ife2017/blob/master/js/task07/task07.html" target="_blank" rel="external">GitHub</a><br>二叉树知识参考<a href="https://segmentfault.com/a/1190000000740261" target="_blank" rel="external">segmentfault</a></p>
+<p>例2.如图所示，遍历一个多叉树，并可以根据输入框中的值以动画形式在树中查找，以特殊颜色标记<br><img src="/images/tree/tree03.png" alt="tree01" width="80%" align="center"><br>分析：</p>
+<ol>
+<li>根据不同方式遍历多叉树</li>
+<li>根据输入框中的值，按不同方式匹配</li>
+<li>动画形式显示匹配过程</li>
+<li>被匹配的项特殊显示</li>
+</ol>
+<p><a href="http://htmlpreview.github.io/?https://github.com/passing-j/ife2017/blob/master/js/task08/task08.html" target="_blank" rel="external">在线预览</a><br>完整项目已上传<a href="https://github.com/passing-j/ife2017/blob/master/js/task08/task08.html" target="_blank" rel="external">GitHub</a><br>DOM操作参考<a href="https://segmentfault.com/a/1190000004076145" target="_blank" rel="external">segmentfault</a></p>
+<p>例3.如图所示，点击的元素以特殊样式显示，选中后点击删除按钮可删除该元素及其子元素，点击添加按钮，将会把文本框中的值作为新的DOM的值，添加到被选中的元素的最后<br><img src="/images/tree/tree04.png" alt="tree01" width="80%" align="center"><br>分析：</p>
+<ol>
+<li>遍历多叉树获取遍历后的数组</li>
+<li>为数组中的项添加点击事件</li>
+<li>改变选中项的颜色</li>
+<li>删除选中项及其子元素</li>
+<li>获取文本框的值，为选中项添加子元素</li>
+</ol>
+<p><a href="http://htmlpreview.github.io/?https://github.com/passing-j/ife2017/blob/master/js/task09/task09.html" target="_blank" rel="external">在线预览</a><br>完整项目已上传<a href="https://github.com/passing-j/ife2017/blob/master/js/task09" target="_blank" rel="external">GitHub</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;简要：实现二叉树的前序、中序、后序遍历，多叉树的深度优先和广度优先遍历&lt;/p&gt;
+&lt;h3 id=&quot;需要具备的基础知识&quot;&gt;&lt;a href=&quot;#需要具备的基础知识&quot; class=&quot;headerlink&quot; title=&quot;需要具备的基础知识&quot;&gt;&lt;/a&gt;需要具备的基础知识&lt;/h3&gt;&lt;p
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>WebSocket与后台的数据交互</title>
